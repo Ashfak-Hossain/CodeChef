@@ -4,11 +4,6 @@ using namespace std;
 
 // Ashfak Hossain Evan, CSE, American International University-Bangladesh (AIUB)
 
-int sum(int a, int b)
-{
-    return a + b;
-}
-
 int main()
 {
 
