@@ -22,6 +22,8 @@ int main()
 
         if (a + b + c <= 180)
             cout << "YES" << endl;
+        else
+            cout << "NO" << endl;
     }
 
     return 0;
