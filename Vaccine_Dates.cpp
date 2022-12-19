@@ -18,15 +18,19 @@ int main()
     while (cases--)
     {
         int d, l, r;
-
         cin >> d >> l >> r;
-
         if (d < l)
+        {
             cout << "Too Early" << endl;
+        }
         else if (d > r)
-            cout << "Too late" << endl;
-        else if ((d >= l) && (d <= r))
+        {
+            cout << "Too Late" << endl;
+        }
+        else
+        {
             cout << "Take second dose now" << endl;
+        }
     }
 
     return 0;
